@@ -18,7 +18,7 @@ b2_ = np.random.standard_normal([1, 10]) * 0.1
 
 epochs = 10
 batchSize = 100
-learningRate = 1e-2
+learningRate = 1e-1
 
 with tf.name_scope('convolve'):
     one_X_img = tf.placeholder(dtype=tf.float32, shape=[1, 28, 28, 1])
